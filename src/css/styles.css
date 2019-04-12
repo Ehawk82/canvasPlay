@@ -1,0 +1,7 @@
+body, html {
+	background-color: black;
+	color:white;
+}
+canvas {
+	background-image: url("../assets/sand.jpg");
+}

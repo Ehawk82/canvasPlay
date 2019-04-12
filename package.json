@@ -1,0 +1,22 @@
+{
+  "name": "canvasplay",
+  "version": "1.0.0",
+  "description": "still learning Canvas API, this repository will be for messing around",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ehawk82/canvasPlay.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ehawk82/canvasPlay/issues"
+  },
+  "homepage": "https://github.com/Ehawk82/canvasPlay#readme",
+  "devDependencies": {
+    "gScript2019": "git+https://github.com/Ehawk82/gScript2019.git"
+  }
+}
