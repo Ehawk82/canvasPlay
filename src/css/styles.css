@@ -1,7 +1,45 @@
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0px;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
 body, html {
-	background-color: black;
+	background-color:black;
 	color:white;
+	margin: 0;
+	padding: 0;
 }
 canvas {
 	background-image: url("../assets/sand.jpg");
+	background-position: center;
+	background-size: 100vw 100vh;
+	display: block;
+}
+.btns {
+	background: green;
+	color: pink;
+	border:none;
+	outline-style: none;
+
+}
+.btns:active {
+	color: green;
+	background: pink;
+}
+.btns:disabled {
+	background: grey;
+	color: lightgrey;
+}
+.btnFrame {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width:100%;
 }
