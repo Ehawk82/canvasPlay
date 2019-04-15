@@ -27,7 +27,10 @@ canvas {
 	color: pink;
 	border:none;
 	outline-style: none;
-
+    line-height: 30px;
+    padding: 5px 15px;
+    display: inline-grid;
+    bottom: 0;
 }
 .btns:active {
 	color: green;
@@ -38,8 +41,16 @@ canvas {
 	color: lightgrey;
 }
 .btnFrame {
+	transition: 250ms all;
 	position: fixed;
 	left: 0;
-	bottom: 0;
+	bottom: -50px;
+	width:100%;
+}
+.btnFrame_full {
+	transition: 250ms all;
+	position: fixed;
+	left: 0;
+	bottom: 2px;
 	width:100%;
 }
